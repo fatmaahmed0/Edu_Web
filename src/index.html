@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+  </head>
+  <body class="">
+    <nav
+      class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="https://flowbite.com/"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img src="img/favicon.svg" class="h-10" alt="Flowbite Logo" />
+          <span class="text-2xl self-center whitespace-nowrap dark:text-white"
+            ><span class="font-extrabold">Edu</span>Web</span
+          >
+        </a>
+        <div class="flex md:order-2 items-center space-x-5 rtl:space-x-reverse">
+          <i class="fa-solid fa-magnifying-glass  mr-2 text-lg  hover:text-[#1ab79d]"></i>
+          <i class="fa-solid fa-cart-shopping mr-2 text-lg  hover:text-[#1ab79d]"></i>
+          <button
+            type="button"
+            class="text-white hidden md:block bg-[#1AB79D]  hover:bg-[#2fb97c] transition-all duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-9 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Get started
+            <i class="fa-solid fa-arrow-right text-[15px] text-center"></i>
+          </button>
+
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700" >
+            <li>
+              <a
+                href="#home"
+                class="block py-2 px-3 text-white bg-[#1ab79d] rounded md:bg-transparent md:text-[#1ab79d] md:px-3 md:text-[17px] md:dark:text-blue-500"
+                aria-current="page"
+                >Home</a>
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#1ab79d] md:px-3 md:text-[17px] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >About</a>
+            </li>
+            <li>
+              <a
+                href="#course"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#1ab79d] md:px-3 md:text-[17px] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Courses</a>
+            </li>
+            <li>
+              <a
+                href="#blog"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#1ab79d] md:px-3 md:text-[17px] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Blog</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#1ab79d] md:px-3 md:text-[17px] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home" class=" pt-[90px] mt-16 md:pt-[220px]  pb-[300px] md:pb-[400px] lg:pb-[120px] bg-[url(../img/hero-bg.svg);] w-full  bg-center bg-cover">
+      <div class=" grid grid-cols-12  w-full md:w-[90%] mx-auto  px-[15px] text-center md:text-start  ">
+        <div class="col-span-12 lg:col-span-6 ">
+          <h1 class="text-[35px] md:text-[64px] leading-[1.2] font-['League Spartan', sans-serif;] font-medium text-black">The Best Program to <span class="text-[#ee4962]">Enroll</span> for Exchange</h1>
+          <p class="mt-[18px] mb-8 text-lg font-normal font-['Poppins', sans-serif;]">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
+          <button type="button"
+          class="text-white bg-[#1AB79D] hover:bg-[#2fb97c] transition-all duration-300 focus:ring-4 focus:outline-none font-normal rounded-md text-lg px-6 py-3 text-center">
+          Find courses
+          <i class="fa-solid fa-arrow-right text-[15px] text-center"></i>
+        </button>
+        </div>
+          <div class="col-span-6 relative flex left-16  items-center md:-top-6 md:left-[38px]">
+            <img src="img/hero-shape-2.png" class="absolute  hidden  lg:block lg:-top-20 lg:left-[25px]" alt="">
+            <img src="img/hero-banner-1.jpg" class="absolute top-10 -left-16 md:left-[100px] lg:left-0 lg:-top-6 rounded-tr-[30%] rounded-bl-[35%]" alt="">
+            <img src="img/hero-banner-2.jpg" class="absolute top-8  w-[90%] md:w-[65%] lg:w-[40%]  -right-28 md:-right-72 lg:top-24 lg:right-14 rounded-tl-[25%] rounded-br-[25%] " alt="">
+            <img src="img/hero-shape-1.svg" class="absolute hidden lg:block lg:-bottom-24 animate-bounce " alt="">
+          </div>
+      </div> 
+    </header>
+
+    <section class="pb-[120px] pt-[80px]">
+      <div class="grid grid-cols-12 w-full md:w-[90%] gap-7   text-center justify-items-center mx-auto px-4">
+        <div class="col-span-12">
+          <p class="text-[#ee4962] text-base mb-4 font-medium font-['Poppins', sans-serif;] tracking-wider">CATEGORIES</p>
+          <h2 class=" text-[30px] md:text-[45px] leading-[1.2] font-semibold font-['League Spartan', sans-serif;]">Online <span class="text-[#1ab79d] ">Classes </span>For Remote Learning.</h2>
+          <p class="mt-4 mb-10 text-lg text-[#808080] font-medium font-['Poppins', sans-serif;] ">Consectetur adipiscing elit sed do eiusmod tempor.</p>
+        </div>
+          <div class="col-span-12 md:col-span-6 lg:col-span-3 bg-[#1ab79d] bg-opacity-10 py-[50px] px-[30px] text-center m-auto rounded-md transition-all duration-500 hover:scale-105">
+            <img src="img/category-1.svg" class="bg-[#1ab79d] bg-opacity-15 mb-[30px] mx-16  p-[18px] rounded-[50%] text-center" alt="">
+            <a href="" class="text-2xl font-semibold">Online Degree Programs</a>
+            <p class="mt-[15px] mb-[25px] text-lg">Lorem ipsum dolor consec tur elit adicing sed umod tempor.</p>
+            <p class=" mx-14 py-1 px-[16px] font-medium rounded-md bg-[#1ab79d] bg-opacity-15 text-[#1ab79d]">7 Courses</p>
+          </div>
+          <div class="col-span-12 md:col-span-6 lg:col-span-3 bg-[#ee49621a]  bg-opacity-10 py-[50px] px-[30px] text-center m-auto rounded-md transition-all duration-500 hover:scale-105">
+            <img src="img/category-2.svg" class="bg-[#ee49621a] bg-opacity-15 mb-[30px] mx-16  p-[18px] rounded-[50%] text-center" alt="">
+            <a href="" class="text-2xl font-semibold">Online Degree Programs</a>
+            <p class="mt-[15px] mb-[25px] text-lg">Lorem ipsum dolor consec tur elit adicing sed umod tempor.</p>
+            <p class=" mx-14 py-1 px-[16px] font-medium rounded-md bg-[#ee49621a] bg-opacity-15 text-red-400">6 Courses</p>
+          </div>
+          <div class="col-span-12 md:col-span-6 lg:col-span-3 bg-[#4461e41a] bg-opacity-10 py-[50px] px-[30px] text-center m-auto rounded-md transition-all duration-500 hover:scale-105">
+            <img src="img/category-3.svg" class="bg-[#4461e41a] bg-opacity-15 mb-[30px] mx-16  p-[18px] rounded-[50%] text-center" alt="">
+            <a href="" class="text-2xl font-semibold">Online Degree Programs</a>
+            <p class="mt-[15px] mb-[25px] text-lg">Lorem ipsum dolor consec tur elit adicing sed umod tempor.</p>
+            <p class=" mx-14 py-1 px-[16px] font-medium rounded-md bg-[#4461e41a] bg-opacity-15 text-blue-500">8 Courses</p>
+          </div>
+          <div class="col-span-12 md:col-span-6 lg:col-span-3 bg-yellow-400   bg-opacity-10 py-[50px] px-[30px] text-center m-auto rounded-md transition-all duration-500 hover:scale-105">
+            <img src="img/category-4.svg" class="bg-yellow-400 bg-opacity-10 mb-[30px] mx-16  p-[18px] rounded-[50%] text-center" alt="">
+            <a href="" class="text-2xl font-semibold">Online Degree Programs</a>
+            <p class="mt-[15px] mb-[25px] text-lg">Lorem ipsum dolor consec tur elit adicing sed umod tempor.</p>
+            <p class=" mx-14 py-1 px-[16px] font-medium rounded-md bg-yellow-400 bg-opacity-15 text-yellow-400">3 Courses</p>
+          </div>
+       
+      </div>
+    </section>
+
+    <section id="about"  class="pt-[0px] lg:pt-[50px] pb-[100px] xl:pb-[100px]">
+      <div class="grid grid-cols-12 w-full md:w-[88%] mx-auto px-4 gap-3 justify-between  ">
+        <div class="col-span-12 xl:col-span-7 relative block justify-center ">
+          <img src="img/about-banner.jpg" class="rounded-2xl w-full md:w-[80%]" alt="">
+          <div class="absolute -bottom-32 md:-bottom-[20px] animate-bounce  duration-1000 -left-14 md:-left-[100px] w-full "><img src="img/about-shape-2.svg" class=" w-[85%] md:w-[50%]" alt=""></div>
+          <div class="absolute -top-36 left-[290px] w-full "><img src="img/about-shape-1.svg" class="  hidden xl:block" alt=""></div>
+        </div>
+        <div class="col-span-12 xl:col-span-5 flex flex-col mt-14 md:mt-0">
+          <p class="uppercase mb-4 text-[18px] text-[#808080] font-semibold tracking-widest">About Us</p>
+          <h2 class=" text-[30px] xl:text-[45px] font-bold leading-tight">Over 10 Years in <span class="text-red-500">Distant learning </span>for Skill Development</h2>
+          <p class="mt-[15px] mb-[25px] text-[#808080] text-lg font-medium">Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim ad minim.</p>
+           <span class="my-4 text-lg font-medium text-[#171717]"><i class="fa-solid fa-check mr-2 text-yellow-300 "></i> Expert Trainers </span> 
+           <span class="my-4 text-lg font-medium text-[#171717]"><i class="fa-solid fa-check mr-2 text-yellow-300 "></i> Online Remote Learning </span> 
+           <span class="my-4 text-lg font-medium text-[#171717]"><i class="fa-solid fa-check mr-2 text-yellow-300 "></i> Lifetime Access </span> 
+        </div>
+      </div>
+    </section>
+
+    <section id="course"  class="py-[120px] font bg-[url(../img/hero-bg.svg);] w-full bg-center bg-cover ">
+      <div class="grid grid-cols-12  w-full md:w-[90%] mx-auto px-4 md:gap-9 ">
+        <div class="col-span-12 text-center">
+          <p class="text-base  font-medium text-[#808080] font-['Poppins', sans-serif;] tracking-[1px] uppercase">Popular Courses</p>
+          <h2 class="  text-[30px] md:text-[45px] text-[#171717] mb-8 font-bold font-['League Spartan', sans-serif;]">Pick A Course To Get Started</h2>
+        </div>
+    
+        <div class="col-span-12 md:col-span-6 lg:col-span-4  group bg-white overflow-hidden ">
+          <div class="overflow-hidden relative">
+            <img src="img/course-1.jpg " class="w-full transition-all  duration-500  group-hover:scale-110" alt="">
+            <span class="bg-[#f8b720] text-white absolute top-2 right-3 pt-[5px] pb-1 px-2 rounded-md text-center  text-base"><i class="fa-regular fa-clock"></i> 3 Weeks</span>
+          </div>
+          <div class="p-6 text-start">
+            <p class="px-3 mb-4 max-w-max text-[#1ab79d] bg-[#1ab79d26]">Beginner</p>
+            <a href="" class="  text-[23px] leading-none  font-semibold hover:text-[#1ab79d]">Build Responsive Real- World Websites with HTML and CSS</a>
+            <div class="mt-2 flex items-center">
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base mr-3"></i>
+                <p class="font-semibold">(5.0/7 Rating)</p>
+              </div>
+              <p  class="mt-2  mb-4 text-rose-600 text-lg font-semibold">$29.00</p>
+              <div class="flex items-center ">
+                <i class="fa-solid fa-book-open mr-2 text-gray-300 text-sm"></i><p class="text-[13px] font-medium">8 Lessons</p> 
+                <div class="border-l-2 h-5 mx-5"></div>
+                <i class="fa-solid fa-user-group mr-2 text-gray-300 text-sm "></i><p class="text-[13px] font-medium">20 Students</p>
+              </div>
+            </div>
+          </div>
+           
+          <div class="col-span-12 md:col-span-6 lg:col-span-4 group  bg-white mt-7 md:mt-0 overflow-hidden">
+            <div class="overflow-hidden relative">
+              <img src="img/course-2.jpg " class="w-full transition-all  duration-500  group-hover:scale-110" alt="">
+              <span class="bg-[#f8b720] text-white absolute top-2 right-3 pt-[5px] pb-1 px-2 rounded-md text-center  text-base"><i class="fa-regular fa-clock"></i> 3 Weeks</span>
+            </div>
+            <div class="p-6 text-start">
+              <p class="px-3 mb-4 max-w-max text-[#1ab79d] bg-[#1ab79d26]">Advanced</p>
+              <a href="" class="  text-[23px] leading-none hover:text-[#1ab79d] font-semibold">Java Programming Masterclass for Software Developers</a>
+              <div class="mt-2 flex items-center">
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base mr-3"></i>
+                <p class="font-semibold">(4.5 /9 Rating)</p>
+              </div>
+              <p  class="mt-2  mb-4 text-rose-600 text-lg font-semibold">$35.00</p>
+              <div class="flex items-center ">
+                <i class="fa-solid fa-book-open mr-2 text-gray-300 text-sm"></i><p class="text-[13px] font-medium">15 Lessons</p> 
+                <div class="border-l-2 h-5 mx-5"></div>
+                <i class="fa-solid fa-user-group mr-2 text-gray-300 text-sm "></i><p class="text-[13px] font-medium">35 Students</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 md:col-span-6 lg:col-span-4 group  bg-white mt-7 md:mt-0 overflow-hidden">
+            <div class="overflow-hidden relative">
+              <img src="img/course-3.jpg " class="w-full transition-all  duration-500  group-hover:scale-110" alt="">
+              <span class="bg-[#f8b720] text-white absolute top-2 right-3 pt-[5px] pb-1 px-2 rounded-md text-center  text-base"><i class="fa-regular fa-clock"></i> 3 Weeks</span>
+            </div>
+            <div class="p-6 text-start">
+              <p class="px-3 mb-4 max-w-max text-[#1ab79d] bg-[#1ab79d26]">Intermediate</p>
+              <a href="" class="  text-[23px] leading-none hover:text-[#1ab79d] font-semibold">The Complete Camtasia Course for Content Creators</a>
+              <div class="mt-2 flex items-center">
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base"></i>
+                <i class="fa-solid fa-star text-yellow-300 text-base mr-3"></i>
+                <p class="font-semibold">(5.0/7 Rating)</p>
+              </div>
+              <p  class="mt-2  mb-4 text-rose-600 text-lg font-semibold">$49.00</p>
+              <div class="flex items-center ">
+                <i class="fa-solid fa-book-open mr-2 text-gray-300 text-sm"></i><p class="text-[13px] font-medium">13 Lessons</p> 
+                <div class="border-l-2 h-5 mx-5"></div>
+                <i class="fa-solid fa-user-group mr-2 text-gray-300 text-sm "></i><p class="text-[13px] font-medium">18 Students</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 flex justify-center items-center mt-8  ">
+            <button class="bg-[#1ab79d] flex items-center justify-center rounded-md text-white text-lg px-6 py-4 hover:bg-green-400">
+              Browse more courses <i class="fa-solid fa-arrow-right ml-2"></i>
+            </button>
+          </div>
+          <div class="col-span-12 relative mb-28 md:mb-48  flex justify-center ">
+            <img src="img/video-banner.jpg" class="absolute w-full  top-[80px] md:top-14 md:w-[75%] rounded-tr-[20%]  rounded-bl-[25%]" alt="">
+            <div class="absolute w-full top-[80px] xl:top-14 z-10 xl:w-[75%] rounded-tr-[20%] xl:h-[500px] md:opacity-25 rounded-bl-[25%] md:bg-black  "></div>
+            <div>
+              <div class="w-[50px] h-[50px] md:w-[70px] md:h-[70px] absolute z-10 left-[140px] md:left-[300px] lg:left-[600px] top-[150px] lg:top-72 rounded-full   bg-red-500 flex items-center justify-center"><i class="fa-solid fa-play text-white text-xl"></i></div>
+              <span class="absolute  flex w-[50px] h-[50px] md:w-[70px] md:h-[70px] left-[140px] md:left-[300px] lg:left-[600px] top-[150px] lg:top-72 animate-ping duration-[5000ms] delay-[2000ms] rounded-full bg-white opacity-75 items-center justify-center"></span>
+            </div>
+          
+          </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class=" grid grid-cols-12  w-[95%] md:w-[90%] mx-auto mt-40 xl:mt-[350px] md:gap-9 gap-y-8 ">
+        <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3 py-[30px] px-[20px] bg-[#1ab79d] bg-opacity-15  text-center rounded-lg shadow-md"> 
+          <h3 class="text-[30px] md:text-[45px] font-bold text-[#1ab79d]">29.3k</h3>
+          <p class="text-base font-medium uppercase">Student Enrolled</p>
+        </div>
+        <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3 py-[30px] px-[20px] bg-[#ee49621a]  bg-opacity-15  text-center rounded-lg shadow-md"> 
+          <h3 class="text-[30px] md:text-[45px] font-bold text-[#ee4962]">32.4K</h3>
+          <p class="text-base font-medium uppercase">Class Completed</p>
+        </div>
+        <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3 py-[30px] px-[20px] bg-[#8f57ff1a] bg-opacity-15  text-center rounded-lg shadow-md"> 
+          <h3 class="text-[30px] md:text-[45px] font-bold text-[#8f57ff]">100%</h3>
+          <p class="text-base font-medium uppercase">Satisfaction Rate</p>
+        </div>
+        <div class="col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3 py-[30px] px-[20px] bg-[#f8b7201a]   bg-opacity-15  text-center rounded-lg shadow-md"> 
+          <h3 class="text-[30px] md:text-[45px] font-bold text-[#f8b720]">354+</h3>
+          <p class="text-base font-medium uppercase">Top Instructors</p>
+        </div>
+      </div>
+    </section>
+
+    <section  id="blog" class="  xl:mt-20  py-[100px] font bg-[url(../img/blog-bg.svg);] w-full   bg-cover ">
+
+      <div class="grid grid-cols-12  w-full md:w-[90%] mx-auto px-4  md:gap-9 ">
+        <div class="col-span-12 text-center">
+          <p class="text-base  font-medium text-[#808080] font-['Poppins', sans-serif;] tracking-[1px] uppercase">Latest Articles</p>
+          <h2 class="text-[30px] md:text-[45px] text-[#171717] mb-8 font-bold font-['League Spartan', sans-serif;]">Get News With Eduweb</h2>
+        </div>
+
+        <div class="col-span-12 md:col-span-6 lg:col-span-4  mb-52 md:mb- group ">
+          <div class="  relative  rounded-xl ">
+            <div class="overflow-hidden rounded-xl">
+              <img src="img/blog-1.jpg" class="rounded-xl w-full  transition-all duration-700 group-hover:scale-110  " alt="">
+            </div>
+            <div class="absolute top-0 bottom-0 right-0 left-0 transition-all rounded-xl duration-700 group-hover:bg-black opacity-30  "></div>
+            <div class="bg-white absolute p-5 mx-4 top-[65%] md:top-[76%] z-10 rounded-xl flex-col shadow-lg">
+              <p class="text-[#808080] uppercase mb-3">Online</p>
+              <a href="" class="font-semibold text-[23px] mt-[10px] mb-[15px] leading-none hover:text-[#1ab79d] ">Become A Better Blogger: Content Planning</a>
+              <div class="flex items-start mt-5 mb-5 text-base">
+                <div class="flex items-center mr-9 font-normal">
+                  <i class="fa-regular fa-calendar-days mr-3 text-[#1ab79d]"></i>
+                  <p>Oct 10, 2021</p>
+                </div>
+                <div class="flex items-center font-normal ">
+                  <i class="fa-regular fa-comments mr-3 text-[#1ab79d]"></i>
+                  <p>Com 09</p>
+                </div>
+              </div>
+              <p class="text-[#808080] text-base ">Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.</p>
+            </div>
+            <div class="  absolute hidden top-[65%] md:top-[72%] z-[11] md:bottom-[55%]  left-[75%] group-hover:inline" >
+              <a href="" class=" rounded-[100%] bg-green-400 p-5 transition-all duration-300 hover:bg-red-500"><i class="fa-solid fa-arrow-right text-white text-lg"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-12 md:col-span-6 lg:col-span-4  mb-52 group ">
+          <div class="  relative  rounded-xl ">
+            <div class="overflow-hidden rounded-xl">
+              <img src="img/blog-2.jpg" class="rounded-xl w-full  transition-all duration-700 group-hover:scale-110  " alt="">
+            </div>
+            <div class="absolute top-0 bottom-0 right-0 left-0 transition-all duration-700 rounded-xl group-hover:bg-black opacity-30  "></div>
+            <div class="bg-white absolute p-5 mx-4 top-[65%] md:top-[76%] z-10 rounded-xl shadow-lg ">
+              <p class="text-[#808080] uppercase mb-3">Online</p>
+              <a href="" class="font-semibold text-[23px] mt-[10px] mb-[15px] leading-none hover:text-[#1ab79d] ">Become A Better Blogger: Content Planning</a>
+              <div class="flex items-start mt-5 mb-5 text-base">
+                <div class="flex items-center mr-9 font-normal">
+                  <i class="fa-regular fa-calendar-days mr-3 text-[#1ab79d]"></i>
+                  <p>Oct 10, 2021</p>
+                </div>
+                <div class="flex items-center font-normal ">
+                  <i class="fa-regular fa-comments mr-3 text-[#1ab79d]"></i>
+                  <p>Com 09</p>
+                </div>
+              </div>
+              <p class="text-[#808080] text-base ">Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.</p>
+            </div>
+            <div class="  absolute hidden top-[65%] md:top-[72%] z-[11] md:bottom-[55%]  left-[75%] group-hover:inline" >
+              <a href="" class=" rounded-[100%] bg-green-400 p-5 transition-all duration-300 hover:bg-red-500"><i class="fa-solid fa-arrow-right text-white text-lg"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-12 md:col-span-6 lg:col-span-4  mb-52  group ">
+          <div class="  relative  rounded-xl ">
+            <div class="overflow-hidden rounded-xl">
+              <img src="img/blog-3.jpg" class="rounded-xl w-full  transition-all duration-700 group-hover:scale-110  " alt="">
+            </div>
+            <div class="absolute top-0 bottom-0 right-0 left-0 transition-all duration-700 rounded-xl group-hover:bg-black opacity-30  "></div>
+            <div class="bg-white absolute p-5 mx-4 top-[65%] md:top-[76%] z-10 rounded-xl shadow-lg ">
+              <p class="text-[#808080] uppercase mb-3">Online</p>
+              <a href="" class="font-semibold text-[23px] mt-[10px] mb-[15px] leading-none hover:text-[#1ab79d] ">Become A Better Blogger: Content Planning</a>
+              <div class="flex items-start mt-5 mb-5 text-base">
+                <div class="flex items-center mr-9 font-normal">
+                  <i class="fa-regular fa-calendar-days mr-3 text-[#1ab79d]"></i>
+                  <p>Oct 10, 2021</p>
+                </div>
+                <div class="flex items-center font-normal ">
+                  <i class="fa-regular fa-comments mr-3 text-[#1ab79d]"></i>
+                  <p>Com 09</p>
+                </div>
+              </div>
+              <p class="text-[#808080] text-base ">Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.</p>
+            </div>
+            <div class="  absolute hidden top-[65%] md:top-[72%] z-[11] md:bottom-[55%]  left-[75%] group-hover:inline" >
+              <a href="" class=" rounded-[100%] bg-green-400 p-5 transition-all duration-300 hover:bg-red-500"><i class="fa-solid fa-arrow-right text-white text-lg"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="bg-[url(../img/footer-bg.png);] bg-zinc-900  py-[120px]">
+      <div class=" w-full md:w-[90%] mx-auto  grid grid-cols-12 text-white px-[15px] gap-3">
+        <div class="col-span-12 lg:col-span-4 ">
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse" >
+          <img src="img/favicon.svg" class="w-[15%]" alt="Flowbite Logo" />
+          <p class="text-2xl self-center whitespace-nowrap dark:text-white"><span class="font-bold">Edu</span>Web</p></a>
+          <p class="text-[16px] text-[#bababa] font-normal my-5">Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.</p>
+          <p class="text-[16px] text-[#bababa] font-medium">Add: <span class="hover:text-[#1ab79d]">70-80 Upper St Norwich NR2</span></p>
+          <p class="text-[16px] text-[#bababa] font-medium">Call: <a href="tel:+01155223832"  class="hover:text-[#1ab79d]" >+01155223832</a></p>
+          <p class="text-[16px] text-[#bababa] font-medium">Email: <a href="mailto:fatmaahmed3255@gmail.com"  class="hover:text-[#1ab79d]" > fatmaahmed3255@gmail.com</a></p>
+        </div>
+
+
+
+        <div class="col-span-12 lg:col-span-2">
+          <p class="font-bold text-[23px] mb-3">Online Platform</p>
+          <div class="flex flex-col text-[#ababab]">
+            <a href="" class="py-1 hover:text-[#1ab79d] "> About</a>
+            <a href="" class="py-1 hover:text-[#1ab79d] "> Courses</a>
+            <a href="" class="py-1 hover:text-[#1ab79d] "> Instructor</a>
+            <a href="" class="py-1 hover:text-[#1ab79d] "> Events</a>
+            <a href="" class="py-1 hover:text-[#1ab79d] "> Instructor Profile</a>
+            <a href="" class="py-1 hover:text-[#1ab79d] "> Purchase Guide</a>
+            </div>
+        </div>
+        <div class="col-span-12 lg:col-span-2 ">
+          <p class="font-bold text-[23px] mb-3">Links</p>
+          <div class=" flex flex-col text-[#ababab]">
+            <a href="" class="py-1 hover:text-[#1ab79d] "> Gallery</a>
+            <a href="" class="py-1 hover:text-[#1ab79d] "> Contact Us</a>
+            <a href="" class="py-1 hover:text-[#1ab79d] ">  News & Articles</a>
+            <a href="" class="py-1 hover:text-[#1ab79d] "> FAQ's</a>
+            <a href="" class="py-1 hover:text-[#1ab79d] "> Sign In/Registration</a>
+            <a href="" class="py-1 hover:text-[#1ab79d] "> Coming Soon</a>
+          </div>
+        </div>
+            
+      <div class="col-span-12 lg:col-span-4 ">
+        <p class="font-bold text-[23px] mb-3">Contacts</p>
+        <p class="text-[16px] text-[#bababa] font-normal my-5">Enter your email address to register to our newsletter subscription</p>
+        <div class=" flex items-center mt-5 mb-9 ">
+          <input type="email" placeholder="Your Email" class="p-3 w-[50%] md:w-[57%] rounded-lg mr-2">
+          <button class="py-3 px-6 lg:px-8  bg-[#1ab79d] text-white rounded-lg">Subscribe <i class="fa-solid fa-arrow-right ml-1"></i></button>
+        </div>
+        <div class="text-[#ababab] text-xl gap-6 flex">
+          <a href=""><i class="fa-brands fa-facebook hover:text-[#1ab79d]"></i></a>
+          <a href=""><i class="fa-brands fa-instagram hover:text-[#1ab79d]"></i></a>
+          <a href=""><i class="fa-brands fa-twitter hover:text-[#1ab79d]"></i></a>
+          <a href=""><i class="fa-brands fa-youtube hover:text-[#1ab79d]"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin hover:text-[#1ab79d]"></i></a>
+        </div>
+      </div>
+        </div>
+      </div>
+    </footer>
+    <section>
+      <a href="#home" ><div class="right-4 bottom-4 z-20 fixed bg-[#1ab79d] w-[50px] h-[50px] rounded-full flex items-center justify-center "><i class="fa-solid fa-angle-up text-xl text-white"></i></div>
+      </a></section>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>
